@@ -1406,3 +1406,14 @@ svg path {
     font-family: "Raleway", Helvetica, sans-serif;
     font-size: 12px
 }
+
+#map {
+    height: 400px; 
+    width: 100%;
+    filter:grayscale(70%);
+    padding-top: 1em;
+}
+
+.blurb h2 {
+    padding-top: .5em;
+}
