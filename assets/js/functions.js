@@ -1,3 +1,4 @@
+
 //1.  menu-fluide
 $( document ).ready(function() {
 	
@@ -28,9 +29,9 @@ $( document ).ready(function() {
 	nav();
 	
 	});
-	
-	//2.  slider
-	
+
+
+//2.  slider
 	document.addEventListener('DOMContentLoaded', function() {
 		var slider = document.getElementById('full-slide');
 		var slides = Array.from(slider.querySelectorAll('.banner li'));
