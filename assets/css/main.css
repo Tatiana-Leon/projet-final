@@ -884,25 +884,25 @@ svg path {
     background-repeat: no-repeat;
     opacity: 0;
     -webkit-transition: opacity .6s ease-in-out;
-    transition: opacity .6s ease-in-out
+    transition: opacity .6s ease-in-out;
 }
 
 #full-slide .banner li.active {
     opacity: 1;
     -webkit-transition: opacity .6s ease-in-out;
-    transition: opacity .6s ease-in-out
+    transition: opacity .6s ease-in-out;
 }
 
 #full-slide .banner li:nth-child(1) {
-    background-image: url("../img/full-slide/thumb-1.jpg")
+    background-image: url("../img/full-slide/thumb-1.jpg");
 }
 
 #full-slide .banner li:nth-child(2) {
-    background-image: url("../img/full-slide/thumb-2.jpg")
+    background-image: url("../img/full-slide/thumb-2.jpg");
 }
 
 #full-slide .banner li:nth-child(3) {
-    background-image: url("../img/full-slide/thumb-3.jpg")
+    background-image: url("../img/full-slide/thumb-3.jpg");
 }
 
 #full-slide i {
@@ -919,39 +919,39 @@ svg path {
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
 #full-slide i:hover {
     -webkit-transform: translateY(-50%) scale(1.1);
-    transform: translateY(-50%) scale(1.1)
+    transform: translateY(-50%) scale(1.1);
 }
 
 #full-slide .prev {
-    left: 30px
+    left: 30px;
 }
 
 #full-slide .next {
-    right: 30px
+    right: 30px;
 }
 
 @media (max-width: 767px) {
     #full-slide i {
         -webkit-transform: translateY(-50%) scale(.7);
-        transform: translateY(-50%) scale(.7)
+        transform: translateY(-50%) scale(.7);
     }
 
     #full-slide i:hover {
         -webkit-transform: translateY(-50%) scale(.8);
-        transform: translateY(-50%) scale(.8)
+        transform: translateY(-50%) scale(.8);
     }
 
     #full-slide .prev {
-        left: 0
+        left: 0;
     }
 
     #full-slide .next {
-        right: 0
+        right: 0;
     }
 }
 
@@ -962,12 +962,12 @@ svg path {
     height: 600px;
     margin: 30px auto;
     background-color: #efefef;
-    overflow: hidden
+    overflow: hidden;
 }
 
 @media (max-width: 768px) {
     #featured {
-        margin: 15px auto
+        margin: 15px auto;
     }
 }
 
@@ -984,7 +984,7 @@ svg path {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
 }
 
 #featured .wrapper .blurb {
@@ -996,7 +996,7 @@ svg path {
     display: inline-block;
     width: 1px;
     height: 70px;
-    background-color: #111
+    background-color: #111;
 }
 
 #featured .wrapper .blurb h2 {
@@ -1004,27 +1004,27 @@ svg path {
     margin-bottom: 30px;
     font-size: 42px;
     font-family: "Raleway", Helvetica, sans-serif;
-    font-weight: 100
+    font-weight: 100;
 }
 
 @media (max-width: 640px) {
     #featured .wrapper .blurb h2 {
         margin-bottom: 20px;
-        font-size: 30px
+        font-size: 30px;
     }
 }
 
 #featured .wrapper .blurb p {
     max-width: 400px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 #featured .wrapper .featured {
-    width: 55%
+    width: 55%;
 }
 
 #featured .wrapper .featured img {
-    width: 100%
+    width: 100%;
 }
 
 @media (max-width: 1023px) {
@@ -1043,19 +1043,19 @@ svg path {
         -webkit-align-items: flex-end;
         -ms-flex-align: end;
         align-items: flex-end;
-        text-align: right
+        text-align: right;
     }
 
     #featured .wrapper .blurb:after {
-        display: none
+        display: none;
     }
 
     #featured .wrapper .blurb p {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
     #featured .wrapper .featured {
-        display: none
+        display: none;
     }
 }
 
@@ -1066,7 +1066,7 @@ svg path {
         -ms-flex-align: center;
         -ms-grid-row-align: center;
         align-items: center;
-        text-align: center
+        text-align: center;
     }
 }
 
@@ -1077,12 +1077,12 @@ svg path {
     height: 600px;
     margin: 30px auto;
     background-color: #efefef;
-    overflow: hidden
+    overflow: hidden;
 }
 
 @media (max-width: 768px) {
     #three-slide {
-        margin: 15px auto
+        margin: 15px auto;
     }
 }
 
@@ -1099,7 +1099,7 @@ svg path {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
 }
 
 #three-slide .wrapper .slider {
@@ -1111,13 +1111,13 @@ svg path {
     list-style: none;
     opacity: 1;
     -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out
+    transition: opacity .3s ease-in-out;
 }
 
 #three-slide .wrapper .slider.swap {
     opacity: 0;
     -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out
+    transition: opacity .3s ease-in-out;
 }
 
 #three-slide .wrapper .slider li {
@@ -1126,22 +1126,22 @@ svg path {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     width: 40%;
-    opacity: 0
+    opacity: 0;
 }
 
 @media (max-width: 900px) {
     #three-slide .wrapper .slider li {
-        width: 50%
+        width: 50%;
     }
 }
 
 #three-slide .wrapper .slider li img {
-    width: 100%
+    width: 100%;
 }
 
 #three-slide .wrapper .slider .back {
     left: 0;
-    opacity: 1
+    opacity: 1;
 }
 
 #three-slide .wrapper .slider .current {
@@ -1149,26 +1149,26 @@ svg path {
     -webkit-transform: translate(-50%, -50%) scale(1.3);
     transform: translate(-50%, -50%) scale(1.3);
     opacity: 1;
-    z-index: 10
+    z-index: 10;
 }
 
 #three-slide .wrapper .slider .front {
     right: 0;
-    opacity: 1
+    opacity: 1;
 }
 
 @media (max-width: 767px) {
     #three-slide .wrapper .slider {
-        width: calc(100% - 30px)
+        width: calc(100% - 30px);
     }
 
     #three-slide .wrapper .slider li {
-        width: 75%
+        width: 75%;
     }
 
     #three-slide .wrapper .slider .back,
     #three-slide .wrapper .slider .front {
-        display: none
+        display: none;
     }
 }
 
@@ -1186,39 +1186,39 @@ svg path {
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
 #three-slide i:hover {
     -webkit-transform: translateY(-50%) scale(1.1);
-    transform: translateY(-50%) scale(1.1)
+    transform: translateY(-50%) scale(1.1);
 }
 
 #three-slide .prev {
-    left: 30px
+    left: 30px;
 }
 
 #three-slide .next {
-    right: 30px
+    right: 30px;
 }
 
 @media (max-width: 767px) {
     #three-slide i {
         -webkit-transform: translateY(-50%) scale(.7);
-        transform: translateY(-50%) scale(.7)
+        transform: translateY(-50%) scale(.7);
     }
 
     #three-slide i:hover {
         -webkit-transform: translateY(-50%) scale(.8);
-        transform: translateY(-50%) scale(.8)
+        transform: translateY(-50%) scale(.8);
     }
 
     #three-slide .prev {
-        left: 0
+        left: 0;
     }
 
     #three-slide .next {
-        right: 0
+        right: 0;
     }
 }
 
@@ -1229,12 +1229,12 @@ svg path {
     height: 600px;
     margin: 30px auto;
     background-color: #efefef;
-    overflow: hidden
+    overflow: hidden;
 }
 
 @media (max-width: 768px) {
     #contact {
-        margin: 15px auto
+        margin: 15px auto;
     }
 }
 
@@ -1247,7 +1247,6 @@ svg path {
     width: 1180px;
     max-width: 95%;
     height: 100%;
-    margin: 0 auto;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1260,13 +1259,18 @@ svg path {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    overflow-y: auto;
+    margin-top: 5em;
+
+    
 }
 
 #contact .wrapper .blurb {
     max-width: 950px;
     margin-top: -45px;
-    text-align: center
+    text-align: center;
+    
 }
 
 #contact .wrapper .blurb h2 {
@@ -1274,18 +1278,18 @@ svg path {
     margin-bottom: 30px;
     font-size: 42px;
     font-family: "Raleway", Helvetica, sans-serif;
-    font-weight: 100
+    font-weight: 100;
 }
 
 @media (max-width: 640px) {
     #contact .wrapper .blurb h2 {
         margin-bottom: 20px;
-        font-size: 30px
+        font-size: 30px;
     }
 }
 
 #contact .wrapper .blurb p {
-    margin-bottom: 45px
+    margin-bottom: 45px;
 }
 
 #contact .wrapper form {
@@ -1303,7 +1307,7 @@ svg path {
     -ms-flex-pack: justify;
     justify-content: space-between;
     color: #111;
-    font-family: "Raleway", Helvetica, sans-serif
+    font-family: "Raleway", Helvetica, sans-serif;
 }
 
 #contact .wrapper form input[type="email"],
@@ -1313,32 +1317,32 @@ svg path {
     padding: 0 15px;
     border: 1px solid #111;
     border-radius: 0;
-    background: transparent
+    background: transparent;
 }
 
 #contact .wrapper form input[type="email"]::-webkit-input-placeholder,
 #contact .wrapper form input[type="text"]::-webkit-input-placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form input[type="email"]::-moz-placeholder,
 #contact .wrapper form input[type="text"]::-moz-placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form input[type="email"]:-ms-input-placeholder,
 #contact .wrapper form input[type="text"]:-ms-input-placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form input[type="email"]::placeholder,
 #contact .wrapper form input[type="text"]::placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form input[type="email"]:focus,
 #contact .wrapper form input[type="text"]:focus {
-    outline: none
+    outline: none;
 }
 
 #contact .wrapper form textarea {
@@ -1349,27 +1353,27 @@ svg path {
     border: 1px solid #111;
     border-radius: 0;
     background: transparent;
-    resize: none
+    resize: none;
 }
 
 #contact .wrapper form textarea::-webkit-input-placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form textarea::-moz-placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form textarea:-ms-input-placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form textarea::placeholder {
-    color: #111
+    color: #111;
 }
 
 #contact .wrapper form textarea:focus {
-    outline: none
+    outline: none;
 }
 
 #contact .wrapper form input[type="submit"] {
@@ -1380,7 +1384,8 @@ svg path {
     text-transform: uppercase;
     border: none;
     border-radius: 0;
-    background-color: #111
+    background-color: #111;
+    margin-bottom: 10em;
 }
 
 @media (max-width: 640px) {
@@ -1388,11 +1393,11 @@ svg path {
     #contact .wrapper form input[type="email"],
     #contact .wrapper form input[type="text"] {
         width: 100%;
-        margin-bottom: 10px
+        margin-bottom: 10px;
     }
 
     #contact .wrapper form textarea {
-        margin: 0 0 10px 0
+        margin: 0 0 10px 0;
     }
 }
 
@@ -1404,16 +1409,22 @@ svg path {
     transform: translate(-50%);
     margin-bottom: 0;
     font-family: "Raleway", Helvetica, sans-serif;
-    font-size: 12px
+    font-size: 12px;
+
+    
 }
 
 #map {
-    height: 400px; 
+    height: 500px; 
     width: 100%;
     filter:grayscale(70%);
-    padding-top: 1em;
+    display: flex;
 }
 
 .blurb h2 {
     padding-top: .5em;
 }
+
+
+
+
