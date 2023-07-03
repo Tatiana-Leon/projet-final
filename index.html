@@ -8,6 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="author" content="buckymaler.com">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -137,6 +139,15 @@
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="assets/js/functions.js"></script>
+  <script>
+    var myMap = L.map('map').setView([45.516933, -73.607025], 12);
+  
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+    }).addTo(myMap);
+  
+  
+  </script> 
 </body>
 
 </html>
